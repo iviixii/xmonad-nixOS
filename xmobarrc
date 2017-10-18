@@ -1,6 +1,6 @@
 Config
   { border      = FullB
-  , borderColor = "#0E0E0E"
+  , borderColor = "#202020"
   , font        = "xft:iosevka:size=11:bold:antialias=true"
   , position    = Static { xpos = 8, ypos = 8, width = 2545, height = 20 }
   , template    = "}%StdinReader%{%battery% %date%  "
@@ -10,8 +10,8 @@ Config
     , Run BatteryP
         ["BAT0", "BAT1"]
         ["-t", "<acstatus>", "--"
-        ,"-O", "<left>%+ <fc=#AEAEAE>|</fc>"
-        ,"-o", "<left>%- <fc=#AEAEAE>|</fc>"
+        ,"-O", "<left>%+ <fc=#aaffaa>|</fc>"
+        ,"-o", "<left>%- <fc=#aaffaa>|</fc>"
         ,"-i", ""
         ]
         100
